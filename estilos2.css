@@ -191,7 +191,327 @@ p#plat{
 }
 
 
-
+/*Bloque MENU*/
 div#bmn{
-	
+	height: 1200px;
+	width: 1100px;
+	margin: auto;
+	background-color: blue;
+	display: block;
 }
+
+/*Bloque platillos principales*/
+div#pp{
+	height: 60px;
+	width: 666px;
+	background-color: red;
+	display: block;
+
+}
+
+p#pp1{
+	font-size: 30px;
+	margin-top: 10px;
+	font-family: fantasy;
+	color: white;
+}
+
+hr#pp{
+	margin-top: -14px;
+}
+
+/*FIn bloque platillos principales*/
+
+/*Primer platillo principal*/
+div#pt1{
+	height: 200px;
+	width: 333px;
+	background-color: yellow;
+	display: block;
+}
+
+div#tcs{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+
+}
+
+p#tcs{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
+}
+
+/*Fin Primer platillo principal*/
+
+
+/*segund platillo principal*/
+div#pt2{
+	height: 200px;
+	width: 333px;
+	background-color: orange;
+	display: block;
+}
+
+div#pzl{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+	margin-top: -10px;
+
+}
+
+p#pzl{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
+}
+
+/*Fin segundo platillo principal*/
+
+/*terc platillo principal*/
+div#pt3{
+	height: 200px;
+	width: 333px;
+	background-color: red;
+}
+
+div#sp{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+	margin-top: -10px;
+
+}
+
+p#sp{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
+}
+
+/*Fin terc platillo principal*/
+
+
+/*cuarto platillo principal*/
+div#pt4{
+	height: 200px;
+	width: 333px;
+	background-color: green;
+}
+
+/*Fin cuarto platillo principal*/
+
+
+/*linea horizontal seccion*/
+hr#d1{
+	transform: rotate(90deg);
+	margin-top: -415px;
+	margin-left: -77px;
+
+}
+
+
+
+/*quinto platillo principal*/
+div#pt5{
+	height: 200px;
+	width: 333px;
+	background-color: green;
+	margin-left: 333px;
+	margin-top: -420px;
+}
+
+/*Fin quinto platillo principal*/
+
+
+/*sexto platillo principal*/
+div#pt6{
+	height: 200px;
+	width: 333px;
+	background-color: lightblue;
+	margin-left: 333px;
+
+}
+
+/*Fin sexto platillo principal*/
+
+
+
+/*septimo platillo principal*/
+div#pt7{
+	height: 200px;
+	width: 333px;
+	background-color: lightgreen;
+	margin-left: 333px;
+
+}
+
+/*Fin septimo platillo principal*/
+
+
+/*octavo platillo principal*/
+div#pt8{
+	height: 200px;
+	width: 333px;
+	background-color: lightyellow;
+	margin-left: 333px;
+
+}
+
+/*Fin octavo platillo principal*/
+
+
+hr#d2{
+	transform: rotate(90deg);
+	margin-top: -414px;
+	margin-left: 255px;
+
+}
+
+/*FIn  platillos principales*/
+
+
+
+/*Paquetes*/
+
+div#tpq{
+	height: 60px;
+	width: 432px;
+	background-color: purple;
+	margin-left: 669px;
+	margin-top: -482px;
+}
+
+/*Paquete1*/
+div#pqt1{
+	height: 278px;
+	width: 432px;
+	background-color: yellow;
+	margin-left: 669px;
+
+}
+
+div#pp2{
+	height: 35px;
+	background-color: #00a819;
+	display: flex;
+
+}
+
+p#pp2{
+	font-size: 26px;
+	font-weight: bold;
+	margin: auto;
+	font-family: sans-serif;
+	color: white;	
+}
+
+/*Fin paquete 1*/
+
+
+/*Paquete2*/
+div#pqt2{
+	height: 278px;
+	width: 432px;
+	background-color: violet;
+	margin-left: 669px;
+}
+div#pp3{
+	height: 35px;
+	background-color: white;
+	display: flex;
+}
+
+p#pp3{
+	font-size: 26px;
+	font-weight: bolder;
+	margin: auto;
+	font-family: sans-serif;
+	color: black;	
+
+}
+/*Fin paquete 1*/
+
+
+/*Paquete3*/
+div#pqt3{
+	height: 278px;
+	width: 432px;
+	background-color: brown;
+	margin-left: 669px;
+}
+
+div#pp4{
+	height: 35px;
+	background-color: red;
+	margin-top:-10px;
+	display: flex;
+}
+
+p#pp4{
+	font-size: 26px;
+	font-weight: bolder;
+	margin: auto;
+	font-family: sans-serif;
+	color: white;	
+}
+/*Fin paquete 3*/
+
+/*FIN PAQUETES*/
+
+
+/*POSTRES*/
+div#pst{
+	margin-top: 5px;
+	width: 548px;
+	height: 312px;
+	background-color: red;
+}
+
+div#psts{
+	height: 50px;
+	background-color: black;
+	display: flex;
+}
+
+p#psts{
+	font-size:34px;
+	margin: auto;
+	font-family: fantasy;
+	color: white;	
+}
+/*FIN POSTRES*/
+
+
+
+
+/*BEBIDAS*/
+div#beb{
+	margin-top: -312px;
+	width: 547px;
+	height: 312px;
+	background-color: red;
+	margin-left: 554px;
+}
+
+div#bebs{
+	height: 50px;
+	background-color: black;
+	display: flex;
+}
+
+p#bebs{
+	font-size: 34px;
+	margin: auto;
+	font-family: fantasy;
+	color: white;	
+}
+/*FIN BEBIDAS*/
