@@ -4,6 +4,7 @@ div#contenedor{
 	height: 1687px;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: red;
 	background-color: black;
 	display: block;
 	flex-wrap: wrap;
@@ -47,7 +48,7 @@ div#cmnu{
 	-moz-border-radius: 91px 91px 91px 91px;
 	-webkit-border-radius: 91px 91px 91px 91px;
 	border: 0px solid #000000;
-	margin-left: 200px;
+	margin-left: 10px;
 }
 
 
@@ -65,6 +66,17 @@ a#cmnu:hover{
 	color: #e6e6e6;
 }
 
+div#icm{
+	margin-left: 130px;
+	margin-top: 60px;
+}
+
+
+img#icm{
+	height: 50px;
+	width: 50px;
+}
+
 /* div galeria */
 div#cgal{
 	align-items: center;
@@ -76,7 +88,7 @@ div#cgal{
 	-moz-border-radius: 91px 91px 91px 91px;
 	-webkit-border-radius: 91px 91px 91px 91px;
 	border: 0px solid #000000;
-	margin-left: 150px;
+	margin-left: 10px;
 }
 
 
@@ -94,7 +106,16 @@ a#cgal:hover{
 	color: #e6e6e6;
 }
 
+div#gal{
+	margin-left: 130px;
+	margin-top: 60px;
+}
 
+
+img#gal{
+	height: 50px;
+	width: 50px;
+}
 /* div promociones */
 div#cprom{
 	align-items: center;
@@ -106,7 +127,7 @@ div#cprom{
 	-moz-border-radius: 91px 91px 91px 91px;
 	-webkit-border-radius: 91px 91px 91px 91px;
 	border: 0px solid #000000;
-	margin-left: 150px
+	margin-left: 5px
 }
 
 
@@ -124,17 +145,30 @@ a#cprom:hover{
 	color: #e6e6e6;
 }
 
+div#prom{
+	margin-left: 130px;
+	margin-top: 60px;
+}
+
+
+img#prom{
+	height: 50px;
+	width: 50px;
+}
+
+/* div promociones */
+
 div#sbr{
 	align-items: center;
 	background-color: red;
 	height: 100px;
 	width: 100px;
-	margin: 40px 1px 0px 0px;
+	margin: 40px 0px 0px 0px;
 	border-radius: 96px 96px 200px 200px;
 	-moz-border-radius: 96px 96px 200px 200px;
 	-webkit-border-radius: 96px 96px 200px 200px;
 	border: 0px solid #000000;
-	margin-left: 180px;
+	margin-left: 120px;
 	background: rgba(12,250,0,1);
 	background: -moz-linear-gradient(left, rgba(12,250,0,1) 0%, rgba(87,239,140,1) 15%, rgba(250,250,250,1) 41%, rgba(255,255,255,1) 60%, rgba(240,46,20,1) 84%, rgba(231,51,35,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(12,250,0,1)), color-stop(15%, rgba(87,239,140,1)), color-stop(41%, rgba(250,250,250,1)), color-stop(60%, rgba(255,255,255,1)), color-stop(84%, rgba(240,46,20,1)), color-stop(100%, rgba(231,51,35,1)));
@@ -148,6 +182,8 @@ div#sbr{
 
 div#sbr:hover{
 	background-color: #0d9900;
+	height: 110px;
+	width: 110px;
 }
 
 p#sbr{
@@ -156,6 +192,11 @@ p#sbr{
 	color: #705c45;
 }
 
+p#sbr:hover{
+	font-family: fantasy;
+	font-size: 20px;
+	color: #705c45;
+}
 /* termina encabezado */
 
 
@@ -193,18 +234,17 @@ p#plat{
 
 /*Bloque MENU*/
 div#bmn{
-	height: 1200px;
+	height: 1251px;
 	width: 1100px;
 	margin: auto;
-	background-color: blue;
 	display: block;
 }
+
 
 /*Bloque platillos principales*/
 div#pp{
 	height: 60px;
 	width: 666px;
-	background-color: red;
 	display: block;
 
 }
@@ -256,7 +296,7 @@ div#pt2{
 	display: block;
 }
 
-div#pzl{
+div#gdt{
 	height: 30px;
 	background-color: grey;
 	display: flex;
@@ -264,7 +304,7 @@ div#pzl{
 
 }
 
-p#pzl{
+p#gdt{
 	margin: auto;
 	font-family: sans-serif;
 	color: white;
@@ -281,7 +321,7 @@ div#pt3{
 	background-color: red;
 }
 
-div#sp{
+div#pzl{
 	height: 30px;
 	background-color: grey;
 	display: flex;
@@ -289,7 +329,7 @@ div#sp{
 
 }
 
-p#sp{
+p#pzl{
 	margin: auto;
 	font-family: sans-serif;
 	color: white;
@@ -305,6 +345,22 @@ div#pt4{
 	height: 200px;
 	width: 333px;
 	background-color: green;
+}
+
+div#pct{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+	margin-top: -10px;
+
+}
+
+p#pct{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
 }
 
 /*Fin cuarto platillo principal*/
@@ -326,9 +382,24 @@ div#pt5{
 	width: 333px;
 	background-color: green;
 	margin-left: 333px;
-	margin-top: -420px;
+	margin-top: -419px;
 }
 
+div#sps{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+	margin-top: -10px;
+
+}
+
+p#sps{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
+}
 /*Fin quinto platillo principal*/
 
 
@@ -339,6 +410,22 @@ div#pt6{
 	background-color: lightblue;
 	margin-left: 333px;
 
+}
+
+div#qsd{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+	margin-top: -10px;
+
+}
+
+p#qsd{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
 }
 
 /*Fin sexto platillo principal*/
@@ -366,6 +453,22 @@ div#pt8{
 
 }
 
+div#brr{
+	height: 30px;
+	background-color: grey;
+	display: flex;
+	margin-top: -10px;
+
+}
+
+p#brr{
+	margin: auto;
+	font-family: sans-serif;
+	color: white;
+	font-weight: bolder;
+	font-size: 23px;
+}
+
 /*Fin octavo platillo principal*/
 
 
@@ -385,7 +488,6 @@ hr#d2{
 div#tpq{
 	height: 60px;
 	width: 432px;
-	background-color: purple;
 	margin-left: 669px;
 	margin-top: -482px;
 }
@@ -414,6 +516,8 @@ p#pp2{
 	color: white;	
 }
 
+
+
 /*Fin paquete 1*/
 
 
@@ -437,6 +541,11 @@ p#pp3{
 	font-family: sans-serif;
 	color: black;	
 
+}
+
+img#pqt2{
+	width: 432px;
+	height: 233px;
 }
 /*Fin paquete 1*/
 
@@ -472,13 +581,13 @@ p#pp4{
 div#pst{
 	margin-top: 5px;
 	width: 548px;
-	height: 312px;
+	height: 362px;
 	background-color: red;
 }
 
 div#psts{
 	height: 50px;
-	background-color: black;
+	background-color: grey;
 	display: flex;
 }
 
@@ -488,6 +597,8 @@ p#psts{
 	font-family: fantasy;
 	color: white;	
 }
+
+
 /*FIN POSTRES*/
 
 
@@ -495,16 +606,16 @@ p#psts{
 
 /*BEBIDAS*/
 div#beb{
-	margin-top: -312px;
+	margin-top: -362px;
 	width: 547px;
-	height: 312px;
+	height: 362px;
 	background-color: red;
 	margin-left: 554px;
 }
 
 div#bebs{
 	height: 50px;
-	background-color: black;
+	background-color: grey;
 	display: flex;
 }
 
@@ -515,3 +626,162 @@ p#bebs{
 	color: white;	
 }
 /*FIN BEBIDAS*/
+
+
+
+/*Comienza pie de página*/
+div#pdp{
+	margin-top: 40px;
+	height: 178px;
+	width: 1300px;
+	background-color: white;
+	align-items: auto;
+	display: flex;
+}
+
+/*BLOQUE DATOS*/
+
+div#datos{
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+p#uni{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: grey;
+
+}
+p#mat{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: grey;
+}
+p#nom{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: grey;
+}
+/*TERMINA BLOQUE DATOS*/
+
+
+/*BLOQUE DATOS*/
+
+div#datos{
+	margin-left: 60px;
+	margin-top: 10px;
+}
+
+p#uni{
+	font-family: sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: grey;
+
+}
+p#mat{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: grey;
+}
+p#nom{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: grey;
+}
+/*TERMINA BLOQUE DATOS*/
+
+div#direccion{
+	height: 100px;
+	width: 270px;
+	margin-left: 130px;
+	margin-top: 10px;
+
+}
+
+
+/*Div Contacto*/
+
+div#contacto{
+	width: 250px;
+	align-items: center;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: 70px;
+
+}
+p#con{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+div#tel{
+	display: block;
+	align-items: center;
+	height: 120px;
+}
+
+
+/*Div Contacto*/
+p#cont{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -30px;
+	margin-left: 80px;
+	color: grey;
+}
+img#tel{
+	margin-left: 30px;
+	height: 30px;
+	width: 30px;
+}
+
+
+/*Div Contacto*/
+
+
+p#fb{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -30px;
+	margin-left: 80px;
+	color: grey;
+}
+img#fb{
+	margin-top: -20px;
+	height: 30px;
+	width: 30px;
+	margin-left: 30px;
+}
+/*Div Contacto*/
+p#mail{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -30px;
+	margin-left: 80px;
+	color: grey;
+
+} 
+/*Div Contacto*/
+img#mail{
+	margin-left: 80px;
+	height: 30px;
+	width: 30px;
+
+}
+/*Termina contacto*/
+
+/*TERMINA PIE DE PAGINA*/
