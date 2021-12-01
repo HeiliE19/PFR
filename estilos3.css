@@ -246,403 +246,414 @@ p#plat:hover{
 	color: #ff6f00;
 	align-self: center;
 
+
 }
 
 
-/*Bloque MENU*/
-div#bmn{
-	height: 1251px;
-	width: 1100px;
+/*BLoque imagenes*/
+div#img{
+	height: 1350px;
+	width: 1150px;
 	margin: auto;
-	display: block;
-}
-
-
-/*Bloque platillos principales*/
-div#pp{
-	height: 60px;
-	width: 666px;
-	display: block;
-
-}
-
-p#pp1{
-	font-size: 30px;
-	margin-top: 10px;
-	font-family: fantasy;
-	color: white;
-}
-
-hr#pp{
-	margin-top: -14px;
-}
-
-/*FIn bloque platillos principales*/
-
-/*Primer platillo principal*/
-div#pt1{
-	height: 200px;
-	width: 333px;
-	background-color: yellow;
-	display: block;
-}
-
-div#tcs{
-	height: 30px;
-	background-color: grey;
 	display: flex;
-
+	flex-wrap: wrap;
 }
 
-p#tcs{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
+/*DIVS imagenes*/
 
-/*Fin Primer platillo principal*/
-
-
-/*segund platillo principal*/
-div#pt2{
-	height: 200px;
-	width: 333px;
-	background-color: orange;
-	display: block;
-}
-
-div#gdt{
-	height: 30px;
-	background-color: grey;
-	display: flex;
-	margin-top: -10px;
-
-}
-
-p#gdt{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
-
-/*Fin segundo platillo principal*/
-
-/*terc platillo principal*/
-div#pt3{
-	height: 200px;
-	width: 333px;
-	background-color: red;
-}
-
-div#pzl{
-	height: 30px;
-	background-color: grey;
-	display: flex;
-	margin-top: -10px;
-
-}
-
-p#pzl{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
-
-/*Fin terc platillo principal*/
-
-
-/*cuarto platillo principal*/
-div#pt4{
-	height: 200px;
-	width: 333px;
-	background-color: green;
-}
-
-div#pct{
-	height: 30px;
-	background-color: grey;
-	display: flex;
-	margin-top: -10px;
-
-}
-
-p#pct{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
-
-/*Fin cuarto platillo principal*/
-
-
-/*linea horizontal seccion*/
-hr#d1{
-	transform: rotate(90deg);
-	margin-top: -415px;
-	margin-left: -77px;
-
-}
-
-
-
-/*quinto platillo principal*/
-div#pt5{
-	height: 200px;
-	width: 333px;
-	background-color: green;
-	margin-left: 333px;
-	margin-top: -419px;
-}
-
-div#sps{
-	height: 30px;
-	background-color: grey;
-	display: flex;
-	margin-top: -10px;
-
-}
-
-p#sps{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
-/*Fin quinto platillo principal*/
-
-
-/*sexto platillo principal*/
-div#pt6{
-	height: 200px;
-	width: 333px;
-	background-color: lightblue;
-	margin-left: 333px;
-
-}
-
-div#qsd{
-	height: 30px;
-	background-color: grey;
-	display: flex;
-	margin-top: -10px;
-
-}
-
-p#qsd{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
-
-/*Fin sexto platillo principal*/
-
-
-
-/*septimo platillo principal*/
-div#pt7{
-	height: 200px;
-	width: 333px;
-	background-color: lightgreen;
-	margin-left: 333px;
-
-}
-
-/*Fin septimo platillo principal*/
-
-
-/*octavo platillo principal*/
-div#pt8{
-	height: 200px;
-	width: 333px;
-	background-color: lightyellow;
-	margin-left: 333px;
-
-}
-
-div#brr{
-	height: 30px;
-	background-color: grey;
-	display: flex;
-	margin-top: -10px;
-
-}
-
-p#brr{
-	margin: auto;
-	font-family: sans-serif;
-	color: white;
-	font-weight: bolder;
-	font-size: 23px;
-}
-
-/*Fin octavo platillo principal*/
-
-
-hr#d2{
-	transform: rotate(90deg);
-	margin-top: -414px;
-	margin-left: 255px;
-
-}
-
-/*FIn  platillos principales*/
-
-
-
-/*Paquetes*/
-
-div#tpq{
-	height: 60px;
-	width: 432px;
-	margin-left: 669px;
-	margin-top: -482px;
-}
-
-/*Paquete1*/
-div#pqt1{
-	height: 278px;
-	width: 432px;
-	background-color: yellow;
-	margin-left: 669px;
-
-}
-
-div#pp2{
-	height: 35px;
-	background-color: #00a819;
-	display: flex;
-
-}
-
-p#pp2{
-	font-size: 26px;
-	font-weight: bold;
-	margin: auto;
-	font-family: sans-serif;
-	color: white;	
-}
-
-
-
-/*Fin paquete 1*/
-
-
-/*Paquete2*/
-div#pqt2{
-	height: 278px;
-	width: 432px;
-	background-color: violet;
-	margin-left: 669px;
-}
-div#pp3{
-	height: 35px;
+/*DIV 1*/
+div#im1{
 	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 20px;
+	margin-left: 40px;
 	display: flex;
 }
 
-p#pp3{
-	font-size: 26px;
-	font-weight: bolder;
-	margin: auto;
-	font-family: sans-serif;
-	color: black;	
-
+div#taq{
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
-img#pqt2{
-	width: 432px;
-	height: 233px;
-}
-/*Fin paquete 1*/
-
-
-/*Paquete3*/
-div#pqt3{
-	height: 278px;
-	width: 432px;
-	background-color: brown;
-	margin-left: 669px;
-}
-
-div#pp4{
-	height: 35px;
+div#desc{
 	background-color: red;
-	margin-top:-10px;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
+
+p#desc{
+	margin-top: 20px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
+
+div#desc:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.6;
+}
+
+p#desc:hover{
+	margin-top: 15px;
+	font-size: 52px;
+	font-family: fantasy;
+	opacity: 1;
+}
+
+/*ter DIV 1*/
+
+
+/*DIV 2*/
+div#im2{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 20px;
+	margin-left: 40px;
 	display: flex;
 }
 
-p#pp4{
-	font-size: 26px;
-	font-weight: bolder;
-	margin: auto;
-	font-family: sans-serif;
-	color: white;	
+div#poz{
+	margin-left: 10px;
+	margin-top: 10px;
 }
-/*Fin paquete 3*/
 
-/*FIN PAQUETES*/
+div#desc2{
+	background-color: red;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
 
+p#desc2{
+	margin-top: 20px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
 
-/*POSTRES*/
-div#pst{
+div#desc2:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.7;
+}
+
+p#desc2:hover{
 	margin-top: 5px;
-	width: 548px;
-	height: 362px;
-	background-color: red;
+	font-size: 40px;
+	font-family: fantasy;
+	opacity: 1;
 }
+/*termina DIV2*/
 
-div#psts{
-	height: 50px;
-	background-color: grey;
+
+/*empza DIV3*/
+div#im3{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 40px;
 	display: flex;
 }
 
-p#psts{
-	font-size:34px;
-	margin: auto;
-	font-family: fantasy;
-	color: white;	
+div#birr{
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
+div#desc3{
+	background-color: red;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
 
-/*FIN POSTRES*/
+p#desc3{
+	margin-top: 20px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
+
+div#desc3:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.7;
+}
+
+p#desc3:hover{
+	margin-top: 0px;
+	font-size: 40px;
+	font-family: fantasy;
+	opacity: 1;
+}
+/*termina DIV3*/
+
+
+/**empieza DIV4*/
+div#im4{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 40px;
+	display: flex;
+}
+
+div#sop{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div#desc4{
+	background-color: red;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
+
+p#desc4{
+	margin-top: 30px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
+
+div#desc4:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.7;
+}
+
+p#desc4:hover{
+	margin-top: 10px;
+	font-size: 60px;
+	font-family: fantasy;
+	opacity: 1;
+}
+/*TERMINA DIV4*/
+
+
+/*EMPZ DIV5*/
+div#im5{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 40px;
+	display: flex;
+}
+
+div#coch{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div#desc5{
+	background-color: red;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
+
+p#desc5{
+	margin-top: 30px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
+
+div#desc5:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.7;
+}
+
+p#desc5:hover{
+	margin-top: 0px;
+	font-size: 40px;
+	font-family: fantasy;
+	opacity: 1;
+}
+/*TERMINA DIV5*/
+
+
+/*EMPZ DIV6*/
+div#im6{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 40px;
+	display: flex;
+}
+
+div#qg{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div#desc6{
+	background-color: red;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
+
+p#desc6{
+	margin-top: 20px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
+
+div#desc6:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.7;
+}
+
+p#desc6:hover{
+	margin-top: 0px;
+	font-size: 43px;
+	font-family: fantasy;
+	opacity: 1;
+}
+/*TERMINA DIV6*/
 
 
 
+/*EMPZ DIV7*/
+div#im7{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 40px;
+	display: flex;
+}
 
-/*BEBIDAS*/
+div#pst{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div#desc7{
+	background-color: red;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
+}
+
+p#desc7{
+	margin-top: 20px;
+	font-size: 70px;
+	font-family: fantasy;
+	opacity: 0;
+}
+
+div#desc7:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.6;
+}
+
+p#desc7:hover{
+	margin-top: 0px;
+	font-size: 42px;
+	font-family: fantasy;
+	opacity: 1;
+}
+/*TERMINA DIV7*/
+
+
+/*EMPIEZA DIV8*/
+div#im8{
+	background-color: white;
+	height: 295px;
+	width: 520px;
+	margin-top: 10px;
+	margin-left: 40px;
+	display: flex;
+}
+
 div#beb{
-	margin-top: -362px;
-	width: 547px;
-	height: 362px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+div#desc8{
 	background-color: red;
-	margin-left: 554px;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0;
 }
 
-div#bebs{
-	height: 50px;
-	background-color: grey;
-	display: flex;
-}
-
-p#bebs{
-	font-size: 34px;
-	margin: auto;
+p#desc8{
+	margin-top: 20px;
+	font-size: 70px;
 	font-family: fantasy;
-	color: white;	
+	opacity: 0;
 }
-/*FIN BEBIDAS*/
+
+div#desc8:hover{
+	background-color: grey;
+	height: 100px;
+	width: 500px;
+	margin-top: -190px;
+	position: absolute;
+	opacity: 0.6;
+}
+
+p#desc8:hover{
+	margin-top: 15px;
+	font-size: 58px;
+	font-family: fantasy;
+	opacity: 1;
+}
+
+/*TERMINA DIV8*/
 
 
 
