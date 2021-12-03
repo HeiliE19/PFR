@@ -4,7 +4,6 @@ div#contenedor{
 	height: 1687px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: red;
 	background-color: black;
 	display: block;
 	flex-wrap: wrap;
@@ -18,13 +17,14 @@ div#menu{
 	display: flex;
 	flex-wrap: wrap;
 	background: rgba(255,255,255,1);
-background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(33%, rgba(0,0,0,1)), color-stop(67%, rgba(5,3,0,1)), color-stop(97%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+	background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(33%, rgba(0,0,0,1)), color-stop(67%, rgba(5,3,0,1)), color-stop(97%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 33%, rgba(5,3,0,1) 67%, rgba(255,255,255,1) 97%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+
 }
 
 div#logo{
@@ -49,7 +49,7 @@ div#cmnu{
 	align-items: center;
 	background-color: red;
 	height: 30px;
-	width: 80px;
+	width: 85px;
 	margin: 70px 0px 0px 0px;
 	border-radius: 91px 91px 91px 91px;
 	-moz-border-radius: 91px 91px 91px 91px;
@@ -64,9 +64,10 @@ div#cmnu:hover{
 }
 
 a#cmnu{
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 24px;
 	color: black;
+	font-weight: bolder;
 }
 
 a#cmnu:hover{
@@ -74,7 +75,7 @@ a#cmnu:hover{
 }
 
 div#icm{
-	margin-left: 130px;
+	margin-left: 120px;
 	margin-top: 60px;
 }
 
@@ -89,7 +90,7 @@ div#cgal{
 	align-items: center;
 	background-color: red;
 	height: 30px;
-	width: 100px;
+	width: 120px;
 	margin: 70px 0px 0px 100px;
 	border-radius: 91px 91px 91px 91px;
 	-moz-border-radius: 91px 91px 91px 91px;
@@ -104,9 +105,10 @@ div#cgal:hover{
 }
 
 a#cgal{
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 24px;
 	color: black;
+	font-weight: bolder;
 }
 
 a#cgal:hover{
@@ -128,7 +130,7 @@ div#cprom{
 	align-items: center;
 	background-color: red;
 	height: 30px;
-	width: 155px;
+	width: 195px;
 	margin: 70px 0px 0px 100px;
 	border-radius: 91px 91px 91px 91px;
 	-moz-border-radius: 91px 91px 91px 91px;
@@ -143,9 +145,10 @@ div#cprom:hover{
 }
 
 a#cprom{
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 24px;
 	color: black;
+	font-weight: bolder;
 }
 
 a#cprom:hover{
@@ -153,7 +156,7 @@ a#cprom:hover{
 }
 
 div#prom{
-	margin-left: 130px;
+	margin-left: 120px;
 	margin-top: 60px;
 }
 
@@ -175,7 +178,7 @@ div#sbr{
 	-moz-border-radius: 96px 96px 200px 200px;
 	-webkit-border-radius: 96px 96px 200px 200px;
 	border: 0px solid #000000;
-	margin-left: 120px;
+	margin-left: 90px;
 	background: rgba(12,250,0,1);
 	background: -moz-linear-gradient(left, rgba(12,250,0,1) 0%, rgba(87,239,140,1) 15%, rgba(250,250,250,1) 41%, rgba(255,255,255,1) 60%, rgba(240,46,20,1) 84%, rgba(231,51,35,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(12,250,0,1)), color-stop(15%, rgba(87,239,140,1)), color-stop(41%, rgba(250,250,250,1)), color-stop(60%, rgba(255,255,255,1)), color-stop(84%, rgba(240,46,20,1)), color-stop(100%, rgba(231,51,35,1)));
@@ -194,15 +197,17 @@ div#sbr:hover{
 }
 
 p#sbr{
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 17px;
 	color: #705c45;
+	font-weight: bolder;
 }
 
 p#sbr:hover{
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 20px;
 	color: #705c45;
+	font-weight: bolder;
 }
 /* termina encabezado */
 
@@ -230,21 +235,23 @@ div#plat{
 
 p#plat{
 	margin-top: 15px;
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 45px;
 	letter-spacing: 1px;
-	word-spacing: 7px;
-	color: orange;
+	word-spacing: 3px;
+	color: #ff6f00;
 	align-self: center;
+	font-weight: bolder;
 }
 
 
 p#plat:hover{
 	margin-top: 10px;
-	font-family: fantasy;
+	font-family: helvetica;
 	font-size: 54px;
 	color: #ff6f00;
 	align-self: center;
+	font-weight: bolder;
 
 
 }
@@ -287,9 +294,10 @@ div#desc{
 
 p#desc{
 	margin-top: 20px;
-	font-size: 70px;
-	font-family: fantasy;
+	font-size: 50px;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc:hover{
@@ -302,10 +310,11 @@ div#desc:hover{
 }
 
 p#desc:hover{
-	margin-top: 15px;
-	font-size: 52px;
-	font-family: fantasy;
+	margin-top: 0px;
+	font-size: 45px;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 
 /*ter DIV 1*/
@@ -338,8 +347,9 @@ div#desc2{
 p#desc2{
 	margin-top: 20px;
 	font-size: 70px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc2:hover{
@@ -354,8 +364,9 @@ div#desc2:hover{
 p#desc2:hover{
 	margin-top: 5px;
 	font-size: 40px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 /*termina DIV2*/
 
@@ -386,9 +397,10 @@ div#desc3{
 
 p#desc3{
 	margin-top: 20px;
-	font-size: 70px;
-	font-family: fantasy;
+	font-size: 30px;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc3:hover{
@@ -401,10 +413,11 @@ div#desc3:hover{
 }
 
 p#desc3:hover{
-	margin-top: 0px;
-	font-size: 40px;
-	font-family: fantasy;
+	margin-top: 5px;
+	font-size: 32px;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 /*termina DIV3*/
 
@@ -435,9 +448,10 @@ div#desc4{
 
 p#desc4{
 	margin-top: 30px;
-	font-size: 70px;
-	font-family: fantasy;
+	font-size: 55px;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc4:hover{
@@ -451,9 +465,10 @@ div#desc4:hover{
 
 p#desc4:hover{
 	margin-top: 10px;
-	font-size: 60px;
-	font-family: fantasy;
+	font-size: 50px;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 /*TERMINA DIV4*/
 
@@ -485,8 +500,9 @@ div#desc5{
 p#desc5{
 	margin-top: 30px;
 	font-size: 70px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc5:hover{
@@ -501,8 +517,9 @@ div#desc5:hover{
 p#desc5:hover{
 	margin-top: 0px;
 	font-size: 40px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 /*TERMINA DIV5*/
 
@@ -534,8 +551,9 @@ div#desc6{
 p#desc6{
 	margin-top: 20px;
 	font-size: 70px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc6:hover{
@@ -550,8 +568,9 @@ div#desc6:hover{
 p#desc6:hover{
 	margin-top: 0px;
 	font-size: 43px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 /*TERMINA DIV6*/
 
@@ -584,8 +603,9 @@ div#desc7{
 p#desc7{
 	margin-top: 20px;
 	font-size: 70px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc7:hover{
@@ -600,8 +620,9 @@ div#desc7:hover{
 p#desc7:hover{
 	margin-top: 0px;
 	font-size: 42px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 /*TERMINA DIV7*/
 
@@ -633,8 +654,9 @@ div#desc8{
 p#desc8{
 	margin-top: 20px;
 	font-size: 70px;
-	font-family: fantasy;
+	font-family: helvetica;
 	opacity: 0;
+	font-weight: bolder;
 }
 
 div#desc8:hover{
@@ -648,9 +670,10 @@ div#desc8:hover{
 
 p#desc8:hover{
 	margin-top: 15px;
-	font-size: 58px;
-	font-family: fantasy;
+	font-size: 45px;
+	font-family: helvetica;
 	opacity: 1;
+	font-weight: bolder;
 }
 
 /*TERMINA DIV8*/
